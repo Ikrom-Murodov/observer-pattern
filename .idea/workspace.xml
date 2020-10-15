@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8dbeb37-6b1a-4013-a6dc-fde724289363" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ts/index.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/interface.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +49,7 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Ikrom\Desktop\Webpack-4\node_modules\prettier" />
@@ -61,6 +57,89 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="ts.external.directory.path" value="C:\Users\Ikrom\Desktop\Webpack-4\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Jest.Checking the methods of the EventEmitter class.method check &quot;subscribe&quot;.checking the possibility of unsubscribing from events">
+    <configuration name="Checking the methods of the EventEmitter class.method check &quot;emit&quot;.checking the method for performance" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/ts/index.spec.ts" />
+      <test-names>
+        <test-name value="Checking the methods of the EventEmitter class" />
+        <test-name value="method check &quot;emit&quot;" />
+        <test-name value="checking the method for performance" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Checking the methods of the EventEmitter class.method check &quot;emit&quot;.the method should return an error" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/ts/index.spec.ts" />
+      <test-names>
+        <test-name value="Checking the methods of the EventEmitter class" />
+        <test-name value="method check &quot;emit&quot;" />
+        <test-name value="the method should return an error" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Checking the methods of the EventEmitter class.method check &quot;subscribe&quot;" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/ts/index.spec.ts" />
+      <test-names>
+        <test-name value="Checking the methods of the EventEmitter class" />
+        <test-name value="method check &quot;subscribe&quot;" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Checking the methods of the EventEmitter class.method check &quot;subscribe&quot;.checking the possibility of unsubscribing from events" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/ts/index.spec.ts" />
+      <test-names>
+        <test-name value="Checking the methods of the EventEmitter class" />
+        <test-name value="method check &quot;subscribe&quot;" />
+        <test-name value="checking the possibility of unsubscribing from events" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="hello" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/ts/index.spec.ts" />
+      <test-names>
+        <test-name value="hello" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Checking the methods of the EventEmitter class.method check &quot;subscribe&quot;.checking the possibility of unsubscribing from events" />
+        <item itemvalue="Jest.Checking the methods of the EventEmitter class.method check &quot;subscribe&quot;" />
+        <item itemvalue="Jest.Checking the methods of the EventEmitter class.method check &quot;emit&quot;.checking the method for performance" />
+        <item itemvalue="Jest.Checking the methods of the EventEmitter class.method check &quot;emit&quot;.the method should return an error" />
+        <item itemvalue="Jest.hello" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,7 +157,7 @@
       <workItem from="1602753411258" duration="598000" />
       <workItem from="1602754236579" duration="3000" />
       <workItem from="1602754737098" duration="2532000" />
-      <workItem from="1602763160122" duration="2969000" />
+      <workItem from="1602763160122" duration="5947000" />
     </task>
     <servers />
   </component>
@@ -110,6 +189,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="907" y="263" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602612025779" />
+    <state width="936" height="281" key="GridCell.Tab.0.bottom" timestamp="1602773265921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602773265921" />
+    <state width="936" height="281" key="GridCell.Tab.0.center" timestamp="1602773265921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602773265921" />
+    <state width="936" height="281" key="GridCell.Tab.0.left" timestamp="1602773265921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602773265921" />
+    <state width="936" height="281" key="GridCell.Tab.0.right" timestamp="1602773265921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602773265921" />
     <state x="776" y="222" key="RollbackChangesDialog" timestamp="1602611631053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
