@@ -6,20 +6,20 @@ import {
 } from './interface';
 
 /**
- * Create a new instances DomHelper.
+ * Create a new instances EventEmitter.
  * @class
  * @implements { IEventEmitter }
  */
 export class EventEmitter implements IEventEmitter {
   /**
-   * All subscriptions are stored in this object
+   * All subscriptions are stored in this object.
    * @private
    */
   private listeners: IListeners = {};
 
   /**
    * Synchronously calls each of the listeners registered for the event named eventName.
-   * @param { string } eventName
+   * @param { string } eventName.
    * @param { ...* } args - You can pass as many arguments as you like.
    * @public - This method is available to all instances of the  EventEmitter class.
    * @throws Throws an error if no listener has been registered for an event named eventName.
@@ -27,7 +27,7 @@ export class EventEmitter implements IEventEmitter {
    */
   public emit(eventName: string, ...args: unknown[]): void {
     if (!this.listeners[eventName]) {
-      throw new Error(`this event "${eventName}" was not found`);
+      throw new Error(`this event "${eventName}" was not found.`);
     }
 
     this.listeners[eventName].forEach((listener: IEmitterCallBack): void => {
@@ -63,8 +63,8 @@ export class EventEmitter implements IEventEmitter {
   }
 
   /**
-   * This method returns a list of listeners
-   * @return {IListeners} - list of listeners
+   * This method returns a list of listeners.
+   * @return {IListeners} - list of listeners.
    * @public - This method is available to all instances of the  EventEmitter class.
    */
   public getListeners(): IListeners {

@@ -29,7 +29,7 @@ export interface IListeners {
 export interface IEventEmitter {
   /**
    * Synchronously calls each of the listeners registered for the event named eventName.
-   * @param { string } eventName
+   * @param { string } eventName.
    * @param { ...* } args - You can pass as many arguments as you like.
    * @public - This method is available to all instances of the  EventEmitter class.
    * @throws Throws an error if no listener has been registered for an event named eventName.
@@ -48,8 +48,8 @@ export interface IEventEmitter {
   subscribe(eventName: string, cb: IEmitterCallBack): IEmitterUnsubscribe;
 
   /**
-   * This method returns a list of listeners
-   * @return {IListeners} - list of listeners
+   * This method returns a list of listeners.
+   * @return {IListeners} - list of listeners.
    * @public - This method is available to all instances of the  EventEmitter class.
    */
   getListeners(): IListeners;

@@ -1,13 +1,14 @@
 {
-  "name": "Observer-js",
-  "version": "0.0.1",
+  "name": "observer-pattern-js",
+  "version": "1.0.1",
   "description": "Observer pattern implementation in js",
   "main": "src/ts/index.js",
   "scripts": {
     "dev": "node -r esm webpack/dev.js",
     "build": "node -r esm webpack/prod.js",
     "lint": "eslint ./src",
-    "test": "jest"
+    "test": "jest",
+    "tsc": "tsc"
   },
   "jest": {
     "moduleNameMapper": {
@@ -19,7 +20,8 @@
     "email": "ikrommurodov2001@gmail.com",
     "url": "https://github.com/Ikrom-Murodov"
   },
-  "homepage": "https://github.com/Ikrom-Murodov",
+  "keywords": ["observer", "emitter", "pattern-observer"],
+  "homepage": "https://github.com/Ikrom-Murodov/observer-pattern-js",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
