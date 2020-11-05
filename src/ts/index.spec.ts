@@ -2,7 +2,7 @@ import { EventEmitter } from '@/index';
 import {
   IEventEmitter,
   IEmitterCallBack,
-  IEmitterUnsubscribe,
+  IEmitterSubscriber,
 } from '@/interface';
 
 describe('Checking the methods of the EventEmitter class', () => {
@@ -18,7 +18,7 @@ describe('Checking the methods of the EventEmitter class', () => {
       try {
         emitter.emit(eventName);
       } catch (error) {
-        expect(error.message).toBe(`this event "${eventName}" was not found`);
+        expect(error.message).toBe(`this event "${eventName}" was not found.`);
       }
     });
 
@@ -50,7 +50,7 @@ describe('Checking the methods of the EventEmitter class', () => {
       const eventName: string = 'test-event-name';
       const listener: IEmitterCallBack = () => {};
 
-      const subscriber: IEmitterUnsubscribe = emitter.subscribe(
+      const subscriber: IEmitterSubscriber = emitter.subscribe(
         eventName,
         listener,
       );
