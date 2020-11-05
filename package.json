@@ -1,6 +1,6 @@
 {
   "name": "observer-pattern-js",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Observer pattern implementation in js",
   "main": "src/ts/index.js",
   "scripts": {
