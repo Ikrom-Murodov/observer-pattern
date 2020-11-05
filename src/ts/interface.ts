@@ -7,10 +7,10 @@ export interface IEmitterCallBack {
 }
 
 /**
- * Interface for unsubscribing from an event.
+ * Interface for subscribers.
  * @interface
  */
-export interface IEmitterUnsubscribe {
+export interface IEmitterSubscriber {
   unsubscribe(): void;
 }
 
@@ -42,10 +42,10 @@ export interface IEventEmitter {
    * @param { string } eventName - name of events to subscribe.
    * @param { IEmitterCallBack } cb - listener function.
    * @public - This method is available to all instances of the  EventEmitter class.
-   * @return { IEmitterUnsubscribe } - Will return an object that has an unsubscribe
+   * @return { IEmitterSubscriber } - Will return the subscriber object.
    * method with which you can unsubscribe from an event.
    */
-  subscribe(eventName: string, cb: IEmitterCallBack): IEmitterUnsubscribe;
+  subscribe(eventName: string, cb: IEmitterCallBack): IEmitterSubscriber;
 
   /**
    * This method returns a list of listeners.

@@ -2,7 +2,7 @@ import {
   IListeners,
   IEventEmitter,
   IEmitterCallBack,
-  IEmitterUnsubscribe,
+  IEmitterSubscriber,
 } from './interface';
 
 /**
@@ -40,13 +40,13 @@ export class EventEmitter implements IEventEmitter {
    * @param { string } eventName - name of events to subscribe.
    * @param { IEmitterCallBack } cb - listener function.
    * @public - This method is available to all instances of the  EventEmitter class.
-   * @return { IEmitterUnsubscribe } - Will return an object that has an unsubscribe
+   * @return { IEmitterSubscriber } - Will return the subscriber object.
    * method with which you can unsubscribe from an event.
    */
   public subscribe(
     eventName: string,
     cb: IEmitterCallBack,
-  ): IEmitterUnsubscribe {
+  ): IEmitterSubscriber {
     if (this.listeners[eventName]) {
       this.listeners[eventName].push(cb);
     } else {
