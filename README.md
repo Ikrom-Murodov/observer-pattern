@@ -7,11 +7,11 @@ npm i observer-pattern-js
 
 # Usage example.
 ```ts
-import {IEventEmitter, EventEmitter, IEmitterUnsubscribe} from "observer-pattern-js";
+import {IEventEmitter, EventEmitter, IEmitterSubscriber} from "observer-pattern-js";
 
 const emitter: IEventEmitter = new EventEmitter();
 
-const subscriber: IEmitterUnsubscribe = emitter.subscribe(
+const subscriber: IEmitterSubscriber = emitter.subscribe(
   'event-name',
   (name, surname, age): void => {
     console.log(name); // Ikrom.
@@ -30,18 +30,19 @@ subscriber.unsubscribe();
 
 ### subscribe - Adds the listener function to the end of the listeners array for the event named eventName.
 
-  * @param { string } eventName - name of events to subscribe.
-  * @param { IEmitterCallBack } cb - listener function.
-  * @public - This method is available to all instances of the  EventEmitter class.
-  * @return { IEmitterUnsubscribe } - Will return an object that has unsubscribe
-  * method with which you can unsubscribe from an event.
+   * Adds the listener function to the end of the listeners array for the event named eventName.
+   * @param { string } eventName - name of events to subscribe.
+   * @param { IEmitterCallBack } cb - listener function.
+   * @public - This method is available to all instances of the  EventEmitter class.
+   * @return { IEmitterSubscriber } - Will return the subscriber object.
+   * method with which you can unsubscribe from an event.
 
 ```ts
-import {IEventEmitter, EventEmitter, IEmitterUnsubscribe} from "observer-pattern-js";
+import {IEventEmitter, EventEmitter, IEmitterSubscriber} from "observer-pattern-js";
 
 const emitter: IEventEmitter = new EventEmitter();
 
-const subscriber: IEmitterUnsubscribe = emitter.subscribe('event-name', (...args) => {});
+const subscriber: IEmitterSubscriber = emitter.subscribe('event-name', (...args) => {});
 ```
 
 
